@@ -18,7 +18,7 @@ import org.json.JSONObject;
  * 
  *
  */
-
+// 1er modifications : 
 public class CallRestWebService {
 
 	public static final String endpoint = "http://ip-api.com/json";
@@ -36,7 +36,7 @@ public class CallRestWebService {
 			//ip = responseObj.getString("origin");
 			ip = responseObj.getString("query");
 			System.out.println("ip : " + ip); 
-
+// System.out.println("
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
